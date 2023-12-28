@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6db5bf0f63.js" crossorigin="anonymous"></script>
+    <title> profile page-socialbook</title>
+</head>
+<body>
+   <nav>
+      <div class="nav-left">
+        <a href="index.html">
+            <img src="images - Copy/logo.png" class="logo">
+        </a>
+            
+            <ul>
+                <li> <img src="images - Copy/notification.png" ></li>
+                <li><img src="images - Copy/inbox1.png"></li>
+                <li><img src="images - Copy/video.png"></li>
+            </ul> 
+      </div>      
+            <div class="nav-right">
+                <div class="search-box">
+                <img src="images - Copy/search.png" alt=""> 
+                <input type="text" placeholder="Search">   
+                </div>
+                <div class="nav-user-icon  online" onclick="settingsMenuToggle()">
+                <img src="images - Copy/far.jfif" alt="">  
+                </div>
+            </div>
+        
+          <!--  dropdown setting menu -->
+            <div class="settings-menu">
+                <div id="dark-btn" >
+                  <span></span>  
+                </div>
+                <div class="setting-menu-inner">
+                    <div class="user-profile">
+                        <img src="images - Copy/far.jfif">
+                        <div>
+                            <p>Fardus</p>
+                            <a href="profile.html"> see your profile</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="user-profile">
+                        <img src="images - Copy/feedback.png">
+                        <div>
+                            <p>Give feedback</p>
+                            <a href="#"> Help us to improve the new design</a>
+                        </div>
+                    </div>
+                    <hr>
+                 <div class="settings-link">
+                    <img src="images - Copy/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="images - Copy/arow.png" 
+                        width="10px"></a>
+                 </div>
+                 <div class="settings-link">
+                    <img src="images - Copy/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="images - Copy/arow.png" 
+                        width="10px"></a>
+                 </div>
+                 <div class="settings-link">
+                    <img src="images - Copy/display.png" class="settings-icon">
+                    <a href="#">Display & Accessbility <img src="images - Copy/arow.png" 
+                        width="10px"></a>
+                 </div>
+                 <div class="settings-link">
+                    <img src="images - Copy/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="images - Copy/arow.png" 
+                        width="10px"></a>
+                 </div>
+
+
+                </div>
+                
+            </div>
+   </nav>
+   
+   <!--profile page  -->
+ <div class="profile-container">
+       <img src="images - Copy/feed image2.jpg" class="cover-img" >
+     <div class="profile-details">
+            <div class="pd-left">
+                    <div class="pd-row">
+                        <img src="images - Copy/profile.jpg" class="pd-image">
+                        <div>
+                            <h3>Fardowsa</h3>
+                            <p>120 Friends -20 mutual</p>
+                            <img src="images - Copy/member1.avif">
+                            <img src="images - Copy/member2.avif">
+                            <img src="images - Copy/member3.avif">
+                            <img src="images - Copy/member4.avif">
+                        </div>
+                </div>
+            </div>
+         <div class="pd-right">
+              <button type="button"> <img src="images - Copy/add.png"> Friends</button>
+              <button type="button"> <img src="images - Copy/message.png"> Message</button>
+                <br>
+                 <a href=""><img src="images - Copy/more.png" ></a>  
+         </div>
+     </div>
+        <div class="profile-info">
+            <div class="info-col">
+
+                <div class="profile-intro">
+                <h3>Intro</h3>
+                <p class="intro-text">Believe in yourself and you can do unbelievable things. <img src="images - Copy/smile.png"></p>
+                <hr>
+                <ul>
+                    <li> <img src="images - Copy/profile3.png"> Director at 99media Ltd</li>
+                    <li> <img src="images - Copy/profile2.png" > Studied at Amity University</li>
+                    <li><img src="images - Copy/profile2.png" > Went Dps Delhi</li>
+                    <li> <img src="images - Copy/profi.png" > Lives in Kenya , Nairobi</li>
+                    <li> <img src="images - Copy/locaton.png" > from somalia , Mogadishu</li>
+                </ul>
+              </div>
+              <div class="profile-intro">
+                <div class="title-box">
+                    <h3>photos</h3>
+                    <a href=""> All photo</a>
+                </div>
+                
+                <div class="photo-box">
+                  <div><img src="images - Copy/photo1.avif" ></div>  
+                  <div><img src="images - Copy/photo2.avif" ></div>  
+                  <div><img src="images - Copy/photo3.avif" ></div>  
+                  <div><img src="images - Copy/photo4.jpg" ></div>  
+                  <div><img src="images - Copy/photo5.avif" ></div>  
+                  <div><img src="images - Copy/photo6.avif" ></div>  
+                </div>
+              </div>
+
+              <div class="profile-intro">
+                <div class="title-box">
+                    <h3>friends</h3>
+                    <a href=""> All friends</a>
+                </div>
+                <p>120(10 mutual)</p>
+                <div class="friends-box">
+                  <div><img src="images - Copy/mem1.jpg" ><p>Joseph N</p></div>  
+                  <div><img src="images - Copy/mem2.jpg" ><p>Nathan N</p></div>  
+                  <div><img src="images - Copy/mem3.avif" ><p>George D</p></div>  
+                  <div><img src="images - Copy/mem4.jpg" ><p>Francis L</p></div>  
+                  <div><img src="images - Copy/mem55.jpg" ><p>Anthony S</p></div>  
+                  <div><img src="images - Copy/memb6.jpg" ><p>Micheal A</p></div>
+                  <div><img src="images - Copy/mem7.jpg" ><P>Edward G</P></div>  
+                  <div><img src="images - Copy/mem8.avif" ><p>Bradon N</p></div> 
+                  <div><img src="images - Copy/mem.avif" ><p>James Doe</p></div>     
+                </div>
+              </div>
+
+
+
+
+
+            </div>
+
+
+
+
+
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="images - Copy/far.jfif">
+                        <div>
+                            <p>Fardus</p>
+                            <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                        </div>
+                    </div>
+        
+                    <div class="post-input-container">
+                    <textarea  rows="3" placeholder="What's on your mind, John?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images - Copy/live video.png" > live video</a>
+                        <a href="#"><img src="images - Copy/camera.png" > photo/video</a>
+                        <a href="#"><img src="images - Copy/smile.png" > feling/Activity</a>
+                    </div>  
+                    </div>
+        
+        
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images - Copy/far.jfif">
+                            <div>
+                                <p>Inna Mohamed</p>
+                                <span>June 24 2021, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">Subscribe <span>@Easy Tutorials</span> Youtube Channel to watch more videos
+                        on website development and UI designs. <a href="#">#EasyTutorials</a>
+                        <a href="#">#YoutubeChannel</a></p>  
+                        <img src="images - Copy/feed image1.avif" class="post-img"> 
+        
+                        <div class="post-row">
+                            <div class="activity-icons">
+                        <div><img src="images - Copy/like.png" >120</div>
+                        <div><img src="images - Copy/comment.png" >45</div>
+                        <div><img src="images - Copy/share.png" >20</div>
+                            </div>
+                            <div class="post-profile-icon">
+                            <img src="images - Copy/far.jfif" ><i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                </div>
+        
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images - Copy/far.jfif">
+                                <div>
+                                    <p>Inna Mohamed</p>
+                                    <span>June 24 2021, 13:40 pm</span>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                        </div>
+                        
+                        <p class="post-text">Like and share this video with friends, tag
+                            <span>@Easy Tutorials</span> facebook page on your post.Ask your doubts
+                            in the comments <a href="#">#EasyTutorials</a>
+                            <a href="#">#YoutubeChannel</a></p>  
+                            <img src="images - Copy/feed image2.avif" class="post-img"> 
+        
+                            <div class="post-row">
+                                <div class="activity-icons">
+                            <div><img src="images - Copy/likes.png" >120</div>
+                            <div><img src="images - Copy/comment.png" >45</div>
+                            <div><img src="images - Copy/share.png" >20</div>
+                                </div>
+                                <div class="post-profile-icon">
+                                <img src="images - Copy/far.jfif" ><i class="fa-solid fa-caret-down"></i>
+                                </div>
+                            </div>
+                    </div>
+        
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images - Copy/far.jfif">
+                                <div>
+                                    <p>Inna Mohamed</p>
+                                    <span>June 24 2021, 13:40 pm</span>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                        </div>
+                        
+                        <p class="post-text">Like and share this video with friends, tag
+                            <span>@Easy Tutorials</span> facebook page on your post.Ask your doubts
+                            in the comments <a href="#">#EasyTutorials</a>
+                            <a href="#">#YoutubeChannel</a></p>   
+                            <img src="images - Copy/feed image3.avif" class="post-img"> 
+        
+                            <div class="post-row">
+                                <div class="activity-icons">
+                            <div><img src="images - Copy/likes.png" >120</div>
+                            <div><img src="images - Copy/comment.png" >45</div>
+                            <div><img src="images - Copy/share.png" >20</div>
+                                </div>
+                                <div class="post-profile-icon">
+                                <img src="images - Copy/far.jfif" ><i class="fa-solid fa-caret-down"></i>
+                                </div>
+                            </div>
+                    </div>
+        
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images - Copy/far.jfif">
+                                <div>
+                                    <p>Inna Mohamed</p>
+                                    <span>June 24 2021, 13:40 pm</span>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                        </div>
+                        
+                        <p class="post-text">Like and share this video with friends, tag
+                            <span>@Easy Tutorials</span> facebook page on your post.Ask your doubts
+                            in the comments <a href="#">#EasyTutorials</a>
+                            <a href="#">#YoutubeChannel</a></p>    
+                            <img src="images - Copy/feed image4.avif" class="post-img"> 
+        
+                            <div class="post-row">
+                                <div class="activity-icons">
+                            <div><img src="images - Copy/likes.png" >120</div>
+                            <div><img src="images - Copy/comment.png" >45</div>
+                            <div><img src="images - Copy/share.png" >20</div>
+                                </div>
+                                <div class="post-profile-icon">
+                                <img src="images - Copy/far.jfif" ><i class="fa-solid fa-caret-down"></i>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images - Copy/far.jfif">
+                                <div>
+                                    <p>Inna Mohamed</p>
+                                    <span>June 24 2021, 13:40 pm</span>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                        </div>
+                        
+                        <p class="post-text">Like and share this video with friends, tag
+                            <span>@Easy Tutorials</span> facebook page on your post.Ask your doubts
+                            in the comments <a href="#">#EasyTutorials</a>
+                            <a href="#">#YoutubeChannel</a></p>    
+                            <img src="images - Copy/feed image5.jpg" class="post-img"> 
+        
+                            <div class="post-row">
+                                <div class="activity-icons">
+                            <div><img src="images - Copy/likes.png" >120</div>
+                            <div><img src="images - Copy/comment.png" >45</div>
+                            <div><img src="images - Copy/share.png" >20</div>
+                                </div>
+                                <div class="post-profile-icon">
+                                <img src="images - Copy/far.jfif" ><i class="fa-solid fa-caret-down"></i>
+                                </div>
+                            </div>
+                    </div>
+
+            </div>
+        </div>
+
+
+ </div>
+ 
+
+        <div class="footer">
+            <p>Copyright 2021 - Easy Tutorials Youtube Channel</p>
+        </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
