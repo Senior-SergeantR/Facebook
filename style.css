@@ -274,6 +274,7 @@ transform: translateX(-50%);
 border: 0;
 width: 35px;
 }
+<<<<<<< HEAD
 .write-post-container{
     width: 100%;
     background:var(--bg-color);
@@ -487,6 +488,11 @@ border-radius: 50%;
     border-radius: 6px;
     margin-bottom:14px ;
 }
+=======
+
+
+
+>>>>>>> origin
 .profile-details{
     background: var(--bg-color);
     padding: 20px;
@@ -494,12 +500,19 @@ border-radius: 50%;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+<<<<<<< HEAD
 }
 .pd-row {
+=======
+
+}
+.pd-row{
+>>>>>>> origin
     display: flex;
     align-items: flex-start;
 }
 .pd-image{
+<<<<<<< HEAD
  width: 100px;
  margin-right: 20px;
  border-radius: 6px;
@@ -513,11 +526,29 @@ border-radius: 50%;
     font-size: 13px;
 }
 .pd-row div img {
+=======
+    width: 100px;
+    margin-right: 20px;
+    border-radius: 6px;
+
+}
+.pd-row div h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.pd-row div p{
+    font-size: 13px;
+}
+
+.pd-row div img{
+>>>>>>> origin
     width: 25px;
     border-radius: 50%;
     margin-top: 12px;
 }
 .pd-right button{
+<<<<<<< HEAD
     background: #1876f2;
     border: 0;
     outline: 0;
@@ -525,10 +556,20 @@ border-radius: 50%;
     display: inline-block;
     align-items: center;
     color:#fff;
+=======
+    background-color: #1876f2;
+    border: 0;
+    outline: 0;
+    padding: 6px 10px;
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+>>>>>>> origin
     border-radius: 3px;
     margin-left: 10px;
     cursor: pointer;
 }
+<<<<<<< HEAD
 .pd-right button img {
   height: 15px;
   margin-right: 10px;  
@@ -544,10 +585,30 @@ border-radius: 50%;
     background: #e4e4e4;
     border-radius:3px;
     padding:12px;
+=======
+.pd-right button img{
+    height: 15px;
+    margin-right: 10px;
+}
+.pd-right button:first-child{
+    background: #e4e6eb;
+    color: #000;
+}
+
+.pd-right{
+    text-align: right;
+}
+
+.pd-right a{
+    background: #e4e6eb;
+    border-radius: 3px;
+    padding: 12px;
+>>>>>>> origin
     display: inline-flex;
     margin-top: 30px;
 }
 .pd-right a img{
+<<<<<<< HEAD
 width: 20px;
 }
 .profile-info {
@@ -723,4 +784,7 @@ border-width: 3px;
    .info-col, .post-col{
 flex-basis: 100%;
    }
+=======
+    width: 20px;
+>>>>>>> origin
 }
